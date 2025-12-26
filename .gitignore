@@ -1,0 +1,38 @@
+# --- Junk Files ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+__pycache__/
+*.py[cod]
+
+# --- Virtual Environments ---
+# Blocks your python libraries folder
+env/
+venv/
+.env
+.venv
+
+# --- Big Model Weights (The 9GB culprits) ---
+# Block all common model formats
+*.pt
+*.pth
+*.mdl
+*.h5
+*.h5
+*.ckpt
+*.safetensors
+*.onnx
+*.pkl
+
+# --- Datasets ---
+# Adjust these folder names if your data is stored differently
+data/
+datasets/
+images/
+videos/
+*.csv
+*.zip
+*.tar.gz
+
+# --- IDE Settings (Optional) ---
+.vscode/
+.idea/

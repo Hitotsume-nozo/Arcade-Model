@@ -1,0 +1,21 @@
+FINAL EVALUATION SUMMARY
+==================================================
+
+Model: UNet++ with efficientnet-b3 encoder
+Test Samples: 300
+Threshold: 0.45
+TTA Views: 6
+
+METRICS:
+  F1:        0.7722 ± 0.1026
+  Dice:      0.7722 ± 0.1026
+  clDice:    0.7834 ± 0.1168
+  IoU:       0.6395 ± 0.1276
+  Precision: 0.7669 ± 0.1259
+  Recall:    0.7940 ± 0.1157
+
+PERFORMANCE DISTRIBUTION:
+  F1 >= 0.6: 281 / 300 ( 93.7%)
+  F1 >= 0.7: 237 / 300 ( 79.0%)
+  F1 >= 0.75: 195 / 300 ( 65.0%)
+  F1 >= 0.8: 141 / 300 ( 47.0%)
